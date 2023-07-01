@@ -1,0 +1,11 @@
+.list {
+  margin-bottom: 10px;
+}
+
+.delete {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 2px;
+}
