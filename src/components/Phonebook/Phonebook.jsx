@@ -46,6 +46,7 @@ export const Phonebook = addNewContact => {
             value={name}
             onChange={handleChange}
             className={css.input}
+            pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
           />
         </label>
 
@@ -59,6 +60,7 @@ export const Phonebook = addNewContact => {
             value={number}
             onChange={handleChange}
             className={css.input}
+            pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
           />
         </label>
 
